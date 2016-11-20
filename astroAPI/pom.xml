@@ -40,6 +40,32 @@
             <artifactId>javax.inject</artifactId>
             <version>1</version>
         </dependency>
+		
+		<!-- Custom Dependencies -->
+		<dependency>
+    		<groupId>joda-time</groupId>
+    		<artifactId>joda-time</artifactId>
+    		<version>2.5</version>
+    		<scope>compile</scope>
+		</dependency>
+		<dependency>
+   	 		<groupId>org.geonames</groupId>
+    		<artifactId>geonames</artifactId>
+    		<version>1.0</version>
+    		<scope>compile</scope>
+		</dependency>
+		<dependency>
+   	 		<groupId>swisseph.api</groupId>
+    		<artifactId>swissephSWI</artifactId>
+    		<version>2.00.00-01</version>
+    		<scope>compile</scope>
+		</dependency>
+		<dependency>
+    		<groupId>com.google.code.gson</groupId>
+    		<artifactId>gson</artifactId>
+    		<version>2.3</version>
+    		<scope>compile</scope>
+		</dependency>
 
         <!-- Test Dependencies -->
         <dependency>
