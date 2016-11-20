@@ -1,4 +1,4 @@
-package astroAPI;
+package com.astro.astroAPI;
 
 /**
  * Contains the client IDs and scopes for allowed clients consuming your API.
