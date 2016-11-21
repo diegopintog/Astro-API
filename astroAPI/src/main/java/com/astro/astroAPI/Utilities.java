@@ -189,9 +189,9 @@ public class Utilities {
         double totalWeight = W1 + W2;
 
         // Compute weight averages on X, Y and Z catesian coordinates
-        double X = ((vectorFirst[0] * W1) + (vectorSecond[0] * W2));
-        double Y = ((vectorFirst[1] * W1) + (vectorSecond[1] * W2));
-        double Z = ((vectorFirst[2] * W1) + (vectorSecond[2] * W2));
+        double X = ((vectorFirst[0] * W1) + (vectorSecond[0] * W2)) / totalWeight;
+        double Y = ((vectorFirst[1] * W1) + (vectorSecond[1] * W2)) / totalWeight;
+        double Z = ((vectorFirst[2] * W1) + (vectorSecond[2] * W2)) / totalWeight;
 
         double[] coordinates = new double[] { X, Y, Z };
 
