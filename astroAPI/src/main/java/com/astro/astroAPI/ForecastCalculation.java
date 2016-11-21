@@ -4,7 +4,7 @@
 package com.astro.astroAPI;
 
 /**
- * @author diego
+ * @author diegopintog
  *
  */
 public class ForecastCalculation {
