@@ -7,7 +7,7 @@ package com.astro.astroAPI;
  * @author diego
  *
  */
-public class forecastCalculation {
+public class ForecastCalculation {
 
 	/**
 	 * @param args
