@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.astro.astroAPI;
+package com.astro.astroAPI.base;
 
 /**
  * @author diego
@@ -15,7 +15,7 @@ public class Result {
 	private double calculationValue;
 	
 	// getters and setters for the body values
-	public String getSynastryCategory(String value)
+	public String getSynastryCategory()
     {
         return this.synastryCategory;
     }
@@ -24,7 +24,7 @@ public class Result {
         this.synastryCategory = value;
     }
     
-	public double getJulianDayFirst(double value)
+	public double getJulianDayFirst()
     {
         return this.julianDayFirst;
     }
@@ -33,7 +33,7 @@ public class Result {
         this.julianDayFirst = value;
     }
     
-    public double getJulianDaySecond(double value)
+    public double getJulianDaySecond()
     {
         return this.julianDaySecond;
     }
@@ -42,7 +42,7 @@ public class Result {
         this.julianDaySecond = value;
     }
     
-    public double getCalculationValue(double value)
+    public double getCalculationValue()
     {
         return this.calculationValue;
     }

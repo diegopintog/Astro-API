@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.astro.astroAPI;
+package com.astro.astroAPI.base;
 
 import swisseph.SwissEph;
 import swisseph.SweConst;

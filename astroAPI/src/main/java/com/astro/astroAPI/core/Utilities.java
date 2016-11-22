@@ -1,10 +1,12 @@
 /**
  * 
  */
-package com.astro.astroAPI;
+package com.astro.astroAPI.core;
 
 import org.joda.time.DateTimeZone;
 import org.joda.time.DateTime;
+
+import com.astro.astroAPI.base.BodyPosition;
 
 /**
  * @author diego

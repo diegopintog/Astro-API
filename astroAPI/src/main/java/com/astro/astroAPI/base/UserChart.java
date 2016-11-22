@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.astro.astroAPI;
+package com.astro.astroAPI.base;
 
 /**
  * @author diego
