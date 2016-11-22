@@ -24,6 +24,9 @@ public class DefinitionTemaple {
 				Utilities.DefinitionAnalysisConjunction(UserA.Venus()  , UserB.Pluto()  ,  8, 180, 120) +
 				Utilities.DefinitionAnalysisComposite(UserA.Mercury()  , UserB.Mercury(), UserA.Jupiter(), UserB.Jupiter(), 10, 0, 120);
 		
+		// Added basic value for testing purposes
+		definitionResult = definitionResult + 7;
+		
 		// Multiplying the result by a standardization value (to normalize results between all forecasts) 
         definitionResult = definitionResult * 10.0;
 		

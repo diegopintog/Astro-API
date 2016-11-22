@@ -1,2 +1,7 @@
-C:\Users\diego\Documents\git-repository\Astro-API\astroAPI\src\main\java\com\astro\astroAPI\Constants.java
-C:\Users\diego\Documents\git-repository\Astro-API\astroAPI\src\main\java\com\astro\astroAPI\YourFirstAPI.java
+C:\Users\diego\Documents\git-repository\Astro-API\astroAPI\src\main\java\com\astro\astroAPI\service\Constants.java
+C:\Users\diego\Documents\git-repository\Astro-API\astroAPI\src\main\java\com\astro\astroAPI\definitinos\DefinitionTemaple.java
+C:\Users\diego\Documents\git-repository\Astro-API\astroAPI\src\main\java\com\astro\astroAPI\ForecastCalculation.java
+C:\Users\diego\Documents\git-repository\Astro-API\astroAPI\src\main\java\com\astro\astroAPI\base\BodyPosition.java
+C:\Users\diego\Documents\git-repository\Astro-API\astroAPI\src\main\java\com\astro\astroAPI\base\Result.java
+C:\Users\diego\Documents\git-repository\Astro-API\astroAPI\src\main\java\com\astro\astroAPI\base\UserChart.java
+C:\Users\diego\Documents\git-repository\Astro-API\astroAPI\src\main\java\com\astro\astroAPI\core\Utilities.java
