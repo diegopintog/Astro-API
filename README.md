@@ -61,5 +61,5 @@ This project is licensed under the GLP-3.0 License.
 
 ## Acknowledgments
 
-* [Thomas Mack](http://www.th-mack.de/international/download/) - Mack for his awesome port of Swiss Ephemeris library of AstroDienst Zürich.
+* [Thomas Mack](http://www.th-mack.de/international/download/) - for his awesome port of Swiss Ephemeris library of AstroDienst Zürich.
 * [AstroDienst Zürich](http://www.astro.com) - for the Swiss Ephemeris library.
