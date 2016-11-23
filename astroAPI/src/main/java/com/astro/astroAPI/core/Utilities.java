@@ -25,7 +25,7 @@ public class Utilities {
         // Evaluate Angle Relation
         return_result = AngleEvaluation(RadsToDegrees(angleBetween), effectIndex, angleNeeded, orbValue);
 
-        if (return_result > 0)
+        /*if (return_result > 0)
         {
             System.out.println("Relation Pass CONJUNCTION");
             System.out.print("firstBody: ");
@@ -54,7 +54,7 @@ public class Utilities {
             System.out.println(orb[0] + "°" + orb[1] + "'" + orb[2] + "''");
             System.out.print("Points: ");
             System.out.println(AngleEvaluation(RadsToDegrees(angleBetween), effectIndex, angleNeeded, orbValue));
-        }
+        }*/
 
         return return_result;
     }
@@ -74,7 +74,7 @@ public class Utilities {
         // Evaluate Angle Relation
         return_result = AngleEvaluation(RadsToDegrees(MidpointsAngleBetween), effectIndex, angleNeeded, orbValue);
 
-        if (return_result > 0)
+        /*if (return_result > 0)
         {
             System.out.println("Relation Pass COMPOSITE");
             System.out.print("firstBody: ");
@@ -107,7 +107,7 @@ public class Utilities {
 
             System.out.print("Points: ");
             System.out.println(AngleEvaluation(RadsToDegrees(MidpointsAngleBetween), effectIndex, angleNeeded, orbValue));
-        }
+        }*/
         
         return return_result;
     }
@@ -302,9 +302,9 @@ public class Utilities {
     	
         // DateTimeOffset utc = TimeZoneInfo.ConvertTimeToUtc(local, sourceTimeZone);
 
-        System.out.format("Local Time:  %s%n, daylight: %s%n", local, sourceTimeZone);
+        /*System.out.format("Local Time:  %s%n, daylight: %s%n", local, sourceTimeZone);
         System.out.format("UTC:         %s%n", utc);
-        System.out.println("");
+        System.out.println("");*/
 
         return utc;
     }

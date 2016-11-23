@@ -1,0 +1,7 @@
+com\astro\astroAPI\ForecastCalculation.class
+com\astro\astroAPI\core\Utilities.class
+com\astro\astroAPI\base\Result.class
+com\astro\astroAPI\definitinos\DefinitionTemaple.class
+com\astro\astroAPI\base\UserChart.class
+com\astro\astroAPI\service\Constants.class
+com\astro\astroAPI\base\BodyPosition.class

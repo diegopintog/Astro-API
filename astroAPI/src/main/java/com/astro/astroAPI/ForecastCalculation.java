@@ -4,7 +4,6 @@
 package com.astro.astroAPI;
 
 import com.astro.astroAPI.base.UserChart;
-import com.astro.astroAPI.base.BodyPosition;
 import com.astro.astroAPI.definitinos.DefinitionTemaple;
 
 import com.astro.astroAPI.base.Result;
@@ -15,7 +14,7 @@ import com.google.api.server.spi.config.Api;
 import com.google.api.server.spi.config.ApiMethod;
 import com.google.api.server.spi.config.Named;
 import com.google.api.server.spi.response.NotFoundException;
-import com.google.gson.Gson;
+
 
 
 @Api(
@@ -53,15 +52,14 @@ public class ForecastCalculation {
             Result forecast = new Result();
             forecast.setSynastryCategory(category);
         	forecast.setJulianDayFirst(julindayfirst);
-        	forecast.setJulianDaySecond(juliandaysecond);
-            
+        	forecast.setJulianDaySecond(juliandaysecond);          
+        	
             // get synastry Unexpected Events And Adventurousness value
-            if (category == "testcategory")
+            if (category.equals("testcategory"))
             {
             	forecast.setCalculationValue(DefinitionTemaple.CalculateDefinition(UserA, UserB));
-            }
-            
-            System.out.format("Forecast result for category %s%n are: %s%n" ,forecast.getSynastryCategory() ,forecast.getCalculationValue());            
+            } 
+            /*System.out.format("Forecast result for category %s%n are: %s%n" ,forecast.getSynastryCategory() ,forecast.getCalculationValue());         */   
 		    
             return forecast;
             

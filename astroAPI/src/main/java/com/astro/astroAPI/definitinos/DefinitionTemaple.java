@@ -14,9 +14,9 @@ public class DefinitionTemaple {
 	
 	public static double CalculateDefinition(UserChart UserA, UserChart UserB){
 		
-		// Definitinon set for calculating the astroligical effect
+		// Definition set for calculating the astrological effect
         // values are ordered as follow: 
-        // double definition_analysis(int firstBody, int secondBody, int effectIndex, int angleNeeded, int orbValue)
+        // double definition_analysis(BodyPosition firstBody, BodyPosition secondBody, int effectIndex, int angleNeeded, int orbValue)
 		double definitionResult = 
 				Utilities.DefinitionAnalysisConjunction(UserA.Mercury(), UserB.Jupiter(), 10,   0, 120) +
 				Utilities.DefinitionAnalysisConjunction(UserA.Venus()  , UserB.Mars()   , 10,  30, 120) +
