@@ -55,8 +55,6 @@ For more rich and clear/updated information please go to Google documentation:
 
 * **Diego Pinto** - [Me](https://github.com/diegopintog)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
 This project is licensed under the GLP-3.0 License.
@@ -64,4 +62,4 @@ This project is licensed under the GLP-3.0 License.
 ## Acknowledgments
 
 * [Thomas Mack](http://www.th-mack.de/international/download/) - Mack for his awesome port of Swiss Ephemeris library of AstroDienst Zürich.
-* AstroDienst Zürich for the Swiss Ephemeris library.
+* [AstroDienst Zürich](http://www.astro.com) - for the Swiss Ephemeris library.
