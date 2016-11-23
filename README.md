@@ -4,8 +4,6 @@ Small Web Service to calculate planet position and some astrological calculation
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 The project is a web service build in on the Maven 3.3.9 endpoints-skeleton-archetype, is made to work on Google Appengine service an has no authentification. It was made as a reference/testing simple web service. it does provide a template to make astrological calculation based on two julian day dates of birth, the definition com.astro.astroAPI.definitinos.DefinitionTemaple.java file illustrate the basic concept of how the comparisons work.
 
 ### Prerequisites
